@@ -8,6 +8,6 @@ class SettingsPage(Page):
     SUBSCRIPTION_BTN = (By.CSS_SELECTOR, '.settings-block-menu [href="/subscription"]')
 
     def click_subscription(self):
-        sleep(5)
+        sleep(1)
         # self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
         self.click(*self.SUBSCRIPTION_BTN)
